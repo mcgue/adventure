@@ -1,5 +1,7 @@
 # Text-Based Adventure Game
 
+import time
+
 # Introduction
 print("Let\'s play Adventure")
 
