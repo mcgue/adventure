@@ -3,16 +3,6 @@
 # https://letstalkdata.com/2014/08/how-to-write-a-text-adventure-in-python-part-1-items-and-enemies/
 import time
 
-# Create an Item class - the base for all items
-class Item():
-    def __init__(self, name, description, value):
-        self.name = name
-        self.description = description
-        self.value = value
-
-    def __str__(self):
-        return "{}\n=====\n{}\nValue: {}\n".format(self.name, self.description, self.value)
-
 # Introduction
 print("Let\'s play Adventure")
 
