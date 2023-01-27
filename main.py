@@ -1,6 +1,8 @@
 # Text-Based Adventure Game With Classes
 # Based on:
 # https://letstalkdata.com/2014/08/how-to-write-a-text-adventure-in-python-part-1-items-and-enemies/
+# Not finished and really not even started
+
 import time
 
 # Introduction
