@@ -16,6 +16,13 @@ class Item():
     def __str__(self):
         return "{}\n=====\n{}\nValue: {}\n".format(self.name, self.description,self.value)
 
+class Gold(Item):
+    def __init__(self, amt):
+        self.amt = amt
+        super().__init__(name="Gold",
+                         description="A round coin with {} stamped on the front.".format(str(self.amt)),
+                         value=self.amt)
+
 # Tell objective
 # print("The object is to find the key and unlock the jeweled box."
 #      "The key is in one of the rooms")
