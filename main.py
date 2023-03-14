@@ -1,6 +1,7 @@
 # Text-Based Adventure Game With Classes
 # Based on:
 # https://letstalkdata.com/2014/08/how-to-write-a-text-adventure-in-python-part-1-items-and-enemies/
+# https://letstalkdata.com/2014/08/how-to-write-a-text-adventure-in-python-part-2-the-world-space/
 # In progress
 
 import time
@@ -22,6 +23,16 @@ class Jewel(Item):
         super().__init__(name="Gold",
                          description="A {} jewel.".format(str(self.color)),
                          value=self.color)
+
+# Helps in game, used is times can help, help is how much can help
+class Partner:
+    def __init__(self, name, used, help):
+        self.name = name
+        self.used = used
+        self.help = help
+
+    def is_alive(self):
+        return self.used > 0
 
 # Tell objective
 # print("The object is to ?? ")
