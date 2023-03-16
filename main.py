@@ -15,7 +15,7 @@ class Item():
         self.value = value
 
     def __str__(self):
-        return "{}\n=====\n{}\nValue: {}\n".format(self.name, self.description,self.value)
+        return f"{self.name}\n=====\n{self.description}\nValue: {self.value}\n"
 
 class Jewel(Item):
     def __init__(self, color):
@@ -47,5 +47,5 @@ if __name__ == '__main__':
     # Introduction
     print("Let\'s play Adventure")
     # Obtain player's name
-    player_name = input("What do you want to call your character?")
+    player_name = input("What do you want to call your character? ")
     print_hi(player_name)
