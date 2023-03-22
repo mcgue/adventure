@@ -1,4 +1,5 @@
 # Text-Based Adventure Game With Classes
+# In progress but not currently working on
 # Based on:
 # https://letstalkdata.com/2014/08/how-to-write-a-text-adventure-in-python-part-1-items-and-enemies/
 # https://letstalkdata.com/2014/08/how-to-write-a-text-adventure-in-python-part-2-the-world-space/
