@@ -1,2 +1,2 @@
 # adventure game <br>
-## Not finished
+## Currently paused, not completed
