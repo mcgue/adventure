@@ -1,3 +1,3 @@
-# Text-based Adventure Game <br>
-### Status: Not finished
-### Future: Finish 
+# adventure
+## Text-based pick your own adventure game
+### Status: not finished
